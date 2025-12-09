@@ -1,17 +1,34 @@
 # === CelebA images (do NOT upload) ===
 data/archive/img_align_celeba/
 
+# === Annotation files (optional upload) ===
+# data/archive/*.csv  # <- you CAN upload CSV if needed, but usually skip
+
 # === Model weights ===
 models/
+*.pth
 
 # === Python cache ===
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
+# === Jupyter notebooks autosave ===
+*.ipynb_checkpoints
+
+# === Virtual environments ===
+venv/
+env/
+.venv/
+
 # === IDE ===
 .vscode/
 .idea/
+
+# === Archives ===
+*.zip
+*.tar.gz
+*.7z
 
 # === OS files ===
 .DS_Store
